@@ -1,0 +1,18 @@
+#camera-logo{
+    height: 20px;
+    width: 20px;
+}
+
+.header{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid black;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

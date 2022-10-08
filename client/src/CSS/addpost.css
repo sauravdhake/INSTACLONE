@@ -1,0 +1,50 @@
+.addposts-form{
+    width: 470px;
+    height: 180px;
+    border: 1px solid #707070;
+    margin: 60px auto;
+    padding: 30px 50px;
+}
+
+.name-location-input{
+    display: flex;
+    justify-content: space-between;
+}
+
+input{
+    margin-bottom: 15px;
+    border: 1px solid #707070;
+    padding: 3px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input::placeholder{
+    color: #707070;
+    font-size: 12px;
+}
+
+#name , #location{
+    width: 42%
+}
+
+#post-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #F0F0F0 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 5px;
+    padding: 3px;
+    width: 80px;
+    color: #707070;
+    margin: auto auto;
+}
+
+.toPostview{
+    text-decoration: none;
+}
+
+#post-btn:hover{
+    cursor: pointer;
+}

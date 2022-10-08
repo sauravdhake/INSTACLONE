@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding:0;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 100px;
+    gap: 50px;
+}
+
+#landing-page{
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+}
+
+#enter-button{
+    text-decoration: none;
+    color: #418366;
+    border: 2px solid #418366;
+    border-radius: 8px;
+    padding: 3px;
+    width: 8vmin;
+    text-align: center;
+    font-weight: 500;
+}
+
+.heading-and-button-container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.heading{
+    color: #418366;
+    font-weight: 500;
+    font-family: 'Times New Roman', Times, serif;
+}
