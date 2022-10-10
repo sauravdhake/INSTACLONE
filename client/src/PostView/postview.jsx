@@ -5,7 +5,7 @@ export default function Postview() {
   const[data,setData] = useState([]);
   
   const getData = () =>{
-    const url = "https://instacloneesh.herokuapp.com/post";
+    const url = "http://localhost:8080/post";
     const httpOptions = {
       method:"GET",
       headers:{

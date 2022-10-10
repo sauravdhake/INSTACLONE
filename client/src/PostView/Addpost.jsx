@@ -21,7 +21,7 @@ const Addpost = () => {
         data.append("description",description);
         data.append("PostImage",image);
 
-        await Axios.post("https://instacloneesh.herokuapp.com/post",data)
+        await Axios.post("http://localhost:8080/post",data)
         navigate("/postview");
         setSaving("");
 

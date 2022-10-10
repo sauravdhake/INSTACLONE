@@ -1,5 +1,7 @@
 const express = require("express");
 const router = express.Router();
+var fs = require("fs");
+var path = require("path");
 const post = require("../models/posts");
 router.use(express.json());
 router.use(express.urlencoded({extended:false}));
